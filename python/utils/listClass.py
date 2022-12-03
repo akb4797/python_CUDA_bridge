@@ -11,15 +11,13 @@ class listOperations:
         freElem = 0 #cannot because of element type
 
         for index,elemVal in zip(range(0, len(self.inputList)), self.inputList):
-            print (str(index),str(elemVal))
             curValCount = self.inputList.count( elemVal)
             if(curValCount > maxCountVal):
                 maxCountVal = curValCount
                 maxCountIndex = index
                 freElem = elemVal
             
-        print ("maxCountVal : ", str(maxCountVal))
-        print ("freq val : ", str(freElem))
+
 
     def updateList (self, paramInList):
         self.inputList = paramInList

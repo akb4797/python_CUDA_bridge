@@ -12,9 +12,9 @@ class divisionClass:
 
     def is_recurring(self):
         if( self.longDivision(self.numer, self.deno)):
-            print ("recurring")
+            print ("\nrecurring")
         else:
-            print ("Non recurring")
+            print ("\nNon recurring")
 
         print ("Quotient : ", str(self.quotString))
 
